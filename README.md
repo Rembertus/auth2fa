@@ -2,9 +2,9 @@
 Authentication with Google Authenticator, Nest.JS, only Backend
 
 ## Instructions
-npm install
-npm install bcrypt  // for encryption password
-npm run start:dev
+npm install  
+npm install bcrypt  // for encryption password  
+npm run start:dev  
 
 ## Script for Table in Postgres - Schema: "user",
 ```javascript 
