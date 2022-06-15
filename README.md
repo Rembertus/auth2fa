@@ -1,12 +1,7 @@
 # auth2fa
-Authentication with Google Authenticator, Nest.JS, only Backend
+Nest.JS, Authentication with Google Authenticator, only Backend
 
-## Instructions
-npm install  
-npm install bcrypt  // for encryption password  
-npm run start:dev  
-
-## Script for Table in Postgres - Schema: "user",
+## Script for table in Postgres - Schema: "user",
 ```javascript 
 CREATE TABLE "user"."user" (
 	id bigserial NOT NULL,
@@ -19,6 +14,12 @@ CREATE TABLE "user"."user" (
 	CONSTRAINT pk_user PRIMARY KEY (id)
 );
 ```
+  
+## Instructions
+npm install  
+npm install bcrypt  // for encryption password  
+npm run start:dev  
+
 ## Tests
 npm run test -t user.controller
 
@@ -34,7 +35,7 @@ Body-Json
     "mypassword": "a1b2c3d4"
 }
 ```
-Generate QRCODE for Google Autnenticator
+Generate QRCODE for Google Authenticator
 http://127.0.0.1:3010/api/users/generate2fa/{USERID}
 ```javascript 
 {
