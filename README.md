@@ -25,7 +25,7 @@ npm run test -t user.controller
 
 ### EndPoints for Postman
 User Create
-POST http://127.0.0.1:3010/api/users
+POST http://127.0.0.1:3010/api/users  
 Body-Json
 ```javascript 
 {
