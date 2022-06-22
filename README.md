@@ -24,7 +24,7 @@ npm run start:dev
 npm run test -t user.controller
 
 ### EndPoints for Postman
-User Create
+User Create  
 POST http://127.0.0.1:3010/api/users  
 Body-Json
 ```javascript 
@@ -35,7 +35,7 @@ Body-Json
     "mypassword": "a1b2c3d4"
 }
 ```
-Generate QRCODE for Google Authenticator
+Generate QRCODE for Google Authenticator: 
 http://127.0.0.1:3010/api/users/generate2fa/{USERID}
 ```javascript 
 {
@@ -49,16 +49,16 @@ Convert Base64 to Image for QrCode
 https://codebeautify.org/base64-to-image-converter
 
 ### EndPoints for Postman
-Login 2fa
+Login 2fa  
 POST http://127.0.0.1:3010/api/login2fa  
 Body-Json
-```javascript 
+```javascript
 {
     "email": "jhoncito@gmail.com",
     "mypassword": "a1b2c3d4",
-		"code": 112233						// Code from Google Authenticator
+    "code": 112233			// Code from Google Authenticator
 }
-```
 
+```
 ## For Support
 - [Remberto Gonzales Cruz](rembertus@gmail.com)
