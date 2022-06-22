@@ -48,5 +48,17 @@ http://127.0.0.1:3010/api/users/generate2fa/{USERID}
 Convert Base64 to Image for QrCode
 https://codebeautify.org/base64-to-image-converter
 
+### EndPoints for Postman
+Login 2fa
+POST http://127.0.0.1:3010/api/login2fa  
+Body-Json
+```javascript 
+{
+    "email": "jhoncito@gmail.com",
+    "mypassword": "a1b2c3d4",
+		"code": 123456						// Code from Google Authenticator
+}
+```
+
 ## For Support
 - [Remberto Gonzales Cruz](rembertus@gmail.com)
