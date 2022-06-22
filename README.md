@@ -56,7 +56,7 @@ Body-Json
 {
     "email": "jhoncito@gmail.com",
     "mypassword": "a1b2c3d4",
-		"code": 123456						// Code from Google Authenticator
+		"code": 112233						// Code from Google Authenticator
 }
 ```
 
